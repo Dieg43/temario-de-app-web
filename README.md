@@ -30,7 +30,7 @@ Flujo de trabajo con ramas (branching, merge, pull requests)**
 **Propósito de Aprendizaje 2: Desarrollar componentes y funcionalidades de una aplicación web**  
 
 
-**1.-Diseño e implementación del frontend  
+###1.-Diseño e implementación del frontend  
 Maquetación/Wireframe/Mockup  
 API:** 
 **Interfaz de usuario Frontend: Es la parte visual con la que interactúa el usuario (ejemplo: botones, formularios).
@@ -38,18 +38,46 @@ Manejo de API: El frontend se comunica con el backend usando APIs, normalmente m
 Proceso de Solicitud y Respuesta de Backend: El backend recibe la solicitud, procesa la información y devuelve una respuesta (datos, confirmaciones, etc.) al frontend.**  
 
 
-**2.-Diseño e implementación del backend  
-Servidor
+### 2. Diseño e implementación del backend
 
-Manejo de peticiones y respuestas HTTP  
-Conexión a bases de datos (MySQL, PostgreSQL, MongoDB)**  
-**3.-Bases de datos**  
- Modelado de datos y relaciones  
-ORM (Object Relational Mapping)  
-CRUD desde el backend    
-4.-Seguridad básica en aplicaciones web  
-Validación de formularios  
-Autenticación y autorización   
+- **Servidor:**  
+  El backend es el motor de la aplicación, encargado de procesar la lógica y comunicarse con el frontend. Normalmente corre en un servidor (puede ser local o en la nube) y responde a solicitudes de los usuarios.
+
+- **Manejo de peticiones y respuestas HTTP:**  
+  El backend recibe solicitudes HTTP (GET, POST, PUT, DELETE) desde el frontend, procesa la información (por ejemplo, consulta la base de datos) y envía respuestas con los datos o confirmaciones necesarias.
+
+- **Conexión a bases de datos (MySQL, PostgreSQL, MongoDB):**  
+  El backend se conecta a bases de datos relacionales (como MySQL, PostgreSQL) o no relacionales (como MongoDB) para almacenar y recuperar información.
+
+---
+
+### 3. Bases de datos
+
+- **Modelado de datos y relaciones:**  
+  Consiste en definir cómo se organiza la información (tablas, campos, relaciones entre tablas) para que sea eficiente y consistente.
+
+- **ORM (Object Relational Mapping):**  
+  Herramientas que permiten interactuar con la base de datos usando objetos y clases en el lenguaje de programación, sin escribir consultas SQL directamente (ejemplo: Sequelize, SQLAlchemy, Doctrine).
+
+- **CRUD desde el backend:**  
+  El backend implementa operaciones básicas sobre datos:  
+  - **Create:** Crear nuevos registros  
+  - **Read:** Consultar registros  
+  - **Update:** Modificar registros  
+  - **Delete:** Eliminar registros
+
+---
+
+### 4. Seguridad básica en aplicaciones web
+
+- **Validación de formularios:**  
+  Comprobar que los datos ingresados por el usuario cumplen ciertos requisitos antes de procesarlos (ejemplo: formato de email, campos obligatorios).
+
+- **Autenticación:**  
+  Verificar la identidad del usuario (ejemplo: inicio de sesión con usuario y contraseña).
+
+- **Autorización:**  
+  Definir qué acciones puede realizar el usuario según sus permisos (ejemplo: solo el administrador puede borrar registros).
 
 Propósito de Aprendizaje 3: Implementar y desplegar una aplicación web funcional  
 1. -Integración de frontend y backend  
