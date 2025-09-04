@@ -1,9 +1,9 @@
 # temario-de-app-web  
 
 <sup>**Propósito de Aprendizaje 1:** </sup> Comprender los fundamentos del desarrollo de aplicaciones web.  
-1.-Introducción al desarrollo web  
-Historia y evolución del desarrollo web  
-Tipos de aplicaciones web (estáticas, dinámicas, SPA, PWA):
+**1.-Introducción al desarrollo web**  
+**Historia y evolución del desarrollo web**   
+**Tipos de aplicaciones web (estáticas, dinámicas, SPA, PWA):**  
 
 <ins>1. Introducción al desarrollo web El desarrollo web es la creación y mantenimiento de sitios y aplicaciones accesibles mediante navegadores. Involucra diseño (frontend), programación (backend), bases de datos y servidores.<ins/>
 
