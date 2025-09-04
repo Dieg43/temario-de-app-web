@@ -28,16 +28,19 @@ Flujo de trabajo con ramas (branching, merge, pull requests)**
 
  
 **Propósito de Aprendizaje 2: Desarrollar componentes y funcionalidades de una aplicación web**  
+
+
 **1.-Diseño e implementación del frontend  
 Maquetación/Wireframe/Mockup  
-API** 
+API:** 
 **Interfaz de usuario Frontend: Es la parte visual con la que interactúa el usuario (ejemplo: botones, formularios).
 Manejo de API: El frontend se comunica con el backend usando APIs, normalmente mediante solicitudes HTTP.
 Proceso de Solicitud y Respuesta de Backend: El backend recibe la solicitud, procesa la información y devuelve una respuesta (datos, confirmaciones, etc.) al frontend.**  
 
 
 **2.-Diseño e implementación del backend  
-Servidor  
+Servidor
+
 Manejo de peticiones y respuestas HTTP  
 Conexión a bases de datos (MySQL, PostgreSQL, MongoDB)**  
 **3.-Bases de datos**  
